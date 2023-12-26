@@ -6,7 +6,7 @@ const users = {
     for (var i = 1; i < 6; i++) {
         
         users[i] = {
-        name: 'Имя : ' + prompt('Введите имя' + i),
+        name: 'Имя : ' + prompt('пользователь' + i ' введите имя'),
         age:  'Возраст : ' + +prompt(' Введите возраст')
         }
         
